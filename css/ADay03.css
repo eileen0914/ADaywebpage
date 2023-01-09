@@ -1,0 +1,389 @@
+html{
+    font-family: Arial; 
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+*,*:after,*:before{
+    box-sizing: inherit;
+}
+
+body{
+    margin:0px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #745BD0;
+}
+
+/*上面東*/
+
+.bigposter{
+    /* min-height: 100%; */
+    width: 100%;overflow:hidden;
+}
+.bigposter01{
+    min-height: 100%;
+    width: 100%;
+}
+
+.menu00{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    text-decoration:none;
+    position: absolute;
+    margin-top: 380px;
+    transition: all .2s linear;
+}
+
+    .logo:hover{
+        transform: scale(0.95);
+    }
+
+.logoP{
+    width: 369px;
+    height: 232px;
+}
+
+.menu{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 680px;
+}
+
+.menuW{
+    text-decoration:none;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    color: #FFFFFF;
+    position:relative;
+    margin: 0 134px;
+    margin-top: 38px;
+    position:relative;
+}
+
+.menuW:hover{
+    color: #E0D7FF;
+    transition: .3s;
+}
+
+.menuW::after{
+    content:" ";
+    position: absolute;
+    right:50%;
+    left:50%;
+    bottom:-5px;
+    border-bottom:2px solid  #E0D7FF;
+    transition: .3s;
+}
+
+.menuW:hover::after{
+    right:0%;
+    left:0%;
+}
+
+/*開發*/
+
+.develop{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.developW{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+    letter-spacing: 0.24em;
+    color: #F8C1A1;
+}
+
+.developline{
+    width: 1101px;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+/*流程*/
+
+.gameW{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.24em;
+    color: #FFFFFF;
+    margin-top: 108px;
+}
+
+.developP{
+    width: 1277px;
+    height: 1181px;
+    margin-top: 25px;
+}
+
+/*人物*/
+
+.character{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #E86DE3 0%, rgba(116, 91, 208, 0) 100%);
+    margin-top: 120px;
+}
+
+.character00{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.24em;
+    color: #FFFFFF;
+    margin-top: 108px;
+}
+
+.characterP01{
+    width: 943.84px;
+    height: 1110px;
+    margin-top: 100px;
+}
+
+.characterW{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 210.02%;
+
+    text-align: center;
+    letter-spacing: 0.69em;
+
+    color: #FFFFFF;
+}
+
+.characterP02{
+    width: 800px;
+    height: 1195.94px;
+    margin-top: 100px;
+}
+
+/*場景*/
+
+.Scenes{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background: #6134C1;
+    margin-top: 125px;
+    height: 3760px;
+}
+
+.Scenes00{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.24em;
+    margin-top: 103px;
+    color: #FFFFFF;
+
+}
+
+.ScenesP01{
+    width: 1148px;
+    height: 645px;
+    margin-top: 7px;
+    border-radius: 25px;
+    margin-top: 103px;
+}
+.ScenesP02{
+    width: 1148px;
+    height: 645px;
+    margin-top: 7px;
+    border-radius: 25px;
+    margin-top: 31px;
+}
+
+.ScenesW{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 210.02%;
+
+    text-align: center;
+    letter-spacing: 0.69em;
+
+    color: #FFFFFF;
+}
+
+.ScenesW02{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1145px;
+    height: 126px;
+    background: #745BD0;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 210.02%;
+    text-align: center;
+    letter-spacing: 0.69em;
+    color: #F8C1A1;
+    margin-top: 7px;
+
+}
+
+/*軟體裝置*/
+
+.VR{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(232, 109, 227, 0) 0%, #E86DE3 100%);
+}
+
+.software{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    width: 1272px;
+    height: 479px;
+    background: #9C76E5;
+    border-radius: 25px;
+    margin-top: 98px;
+}
+
+.softwareP{
+    width: 519px;
+    height: 349px;
+}
+
+.softwareW{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 230px;
+}
+
+.softwareW01{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.24em;
+
+    color: #FFFFFF;
+}
+
+.softwareW02{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 210.02%;
+    /* or 42px */
+
+    text-align: center;
+    letter-spacing: 0.69em;
+
+    color: #FFFFFF;
+}
+
+.device{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    width: 1272px;
+    height: 479px;
+    background: #745BCE;
+    border-radius: 25px;
+    margin-top: 98px;
+}
+
+.deviceW{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: auto 42.5px;
+}
+
+.deviceW01{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: 0.24em;
+
+    color: #FFFFFF;
+}
+
+.deviceW02{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 210.02%;
+    /* identical to box height, or 42px */
+
+    text-align: center;
+    letter-spacing: 0.69em;
+
+    color: #FFFFFF;
+}
+
+.deviceP{
+    width: 852px;
+    height: 479px;
+    margin-right: 0;
+}
+
+.foot{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-top: 210px;
+}
+
+/* 往上一波 */
+
+.back-top {
+    z-index: 99999;
+    position: fixed;
+    bottom: 18px;
+    right: 25px;
+    cursor: pointer;
+    opacity: 0.8;
+    filter: Alpha(opacity=80);
+    width: 55px;
+    height: 55px;
+    background:  center no-repeat
+      url(/img/top.png);
+    background-size: 55px 55px;
+    /*border: 1px rgba(255, 255, 255, 0.6) solid;*/
+    transform: translateY(0%);
+    transition: all 0.2s linear;
+  }
+  
+  .back-top:hover {
+    opacity: 0.8;
+  }
+  
+  .back-top.hide {
+    opacity: 0;
+    filter: Alpha(opacity=0);
+    transform: translateY(150%);
+  }
